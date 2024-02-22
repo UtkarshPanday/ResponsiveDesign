@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.container11 {
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px; */
+    background-color: #f7f5f9;
+  }
+
+  .first-div, .second-div {
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f7f5f9;
+  }
+
+  .first-div {
+    width: 60%;
+    float: left;
+  }
+
+  .second-div {
+    padding: 5% 5% 9% 5%;
+    width: 40%;
+    float: right;
+  }
+
+  @media (max-width: 760px) {
+    .first-div, .second-div {
+      width: 100%;
+      float: none;
+    }
+  }
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  .box {
+    width: 45%;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+ 
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    padding: 0% 5%;
+  }
+
+  button {
+    padding: 5px 15px;
+    color: #8064A2;
+    border: 2px solid #8064A2;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .box1:hover{
+    background-color: #8064A2;
+    color: white;
+  }
+  .box1:hover button{
+    color: white;
+    border: 2px solid white;
+  }
+
+  .box2:hover{
+    background-color: #77933c;
+    color: white;
+  }
+  .box2:hover button{
+    color: white;
+    border: 2px solid white;
+  }
+
+  .box3:hover{
+    background-color: #c0504d;
+    color: white;
+  }
+  .box3:hover button{
+    color: white;
+    border: 2px solid white;
+  }
+
+  .box4:hover{
+    background-color: #0096c8;
+    color: white;
+  }
+  .box4:hover button{
+    color: white;
+    border: 2px solid white;
+  }
+
+  @media (max-width:760px) {
+    .box{
+        width: 100%;
+    }
+  }
+  .addNew{
+    width: 100%;
+    padding: 3% 7%;
+  }
+
+
+
+  .lastPage{
+    width: 100%;
+    padding: 5%;
+    background-color: #f7fdff;
+  }
+
+  .copyright{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .links{
+    width: 20%;
+    margin: 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .copyright :nth-child(4){
+    width: 30%;
+  }
+  @media (max-width:760px) {
+    .links{
+        width: 100%;
+    }
+ 
+  }
+
